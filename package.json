@@ -1,0 +1,37 @@
+{
+  "name": "gpt-cli",
+  "version": "1.0.0",
+  "description": "Get chat completions right in your cli",
+  "main": "src/app.js",
+  "bin": {
+    "gpt-cli": "./src/app.js"
+  },
+  "scripts": {
+    "repl": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapieonic/gpt-cli.git"
+  },
+  "keywords": [
+    "GPT",
+    "CLI",
+    "OPENAI",
+    "LLM"
+  ],
+  "author": "manasnilarout@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapieonic/gpt-cli/issues"
+  },
+  "homepage": "https://github.com/sapieonic/gpt-cli#readme",
+  "dependencies": {
+    "@mistralai/mistralai": "^1.0.4",
+    "config": "^3.3.12",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.8",
+    "openai": "^4.57.0"
+  },
+  "type": "module"
+}
