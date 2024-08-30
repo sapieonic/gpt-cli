@@ -1,0 +1,16 @@
+{
+    "Default": {
+        "GptProvider": {
+            "Provider": "OpenAI"
+        },
+        "IsStreamingEnabled": true
+    },
+    "GPTs": {
+        "OpenAI": {
+            "DefaultModel": "gpt-4o"
+        },
+        "Mistral": {
+            "DefaultModel": "mistral-large-latest"
+        }
+    }
+}
